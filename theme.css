@@ -1,0 +1,626 @@
+.user-popout .footer,
+.user-popout .header,
+.user-popout .protip,
+.user-popout .body, 
+.user-popout .header{
+    background: transparent;
+}
+.user-popout .header.streaming {
+    background: transparent;
+    background-image: none;
+    padding: 0;
+}
+.chat>.title-wrap>.title .channel-name:before {
+    content: "!";
+    margin-right: 2px;
+    color: #8a8e94;
+    font-weight: 300;
+}
+.avatar-large .status {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border-width: 3px !important;
+    right: -3px !important;
+    top: -3px !important;
+}
+.channels-wrap:after{
+  width: 100%;
+  height: 18px;
+  background: var(--a-black-light);
+  content: "BaconSpaceCord 1.0.3";
+  color: #FFF;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: 1px;
+}
+.channel-members .avatar-small .status,
+.user-popout .avatar-wrapper .avatar-popout .status,
+.avatar-profile .status{
+    border: 0;
+    border-radius: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.channel-members .avatar-popout .status{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border-width: 3px !important;
+    right: -3px !important;
+    top: -3px !important;
+}
+div.message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
+    display:none!important;
+}
+}
+
+
+#user-profile-modal .header,
+.avatar-large {
+    left: 8px
+        background-image: url(https://hansanonymous.github.io/files/bg.png);
+    background-size: cover;
+}
+
+
+:hov
+
+
+.cls
+
+#user-profile-modal .scroller{
+    content: " ";
+    background-color: transparent;
+    background-repeat-y: no-repeat;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(#fff));
+    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+        background-image: url(https://hansanonymous.github.io/files/bg.png);
+    background-size: cover;
+}
+.mention{
+    color: #8a8e94;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: #8a8e94;
+}
+
+.chat .new-messages-bar button {
+    text-align: left;
+    background: transparent;
+    color: transparent;
+    font-weight: 500;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 6px 10px;
+    line-height: 14px;
+}
+
+    .embed .embed-provider{
+    color:orange !important;
+    } 
+    .embed .embed-title+.embed-description{
+    color:orange !important;
+    } 
+.account .status{    
+    border: 0;
+    border-radius: 0;
+    right: 0;
+    bottom: 0;
+}
+
+    .embed .embed-title{
+    color:red !important;
+    }
+    .chat>.title-wrap>.title {
+     color:yellow !important;
+     color:transparent 
+    }
+.message-group h2 .timestamp {
+    color: yellow;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-transform: none;
+    margin-left: 6px;
+}
+
+.a {
+    color: green;
+
+}
+.itemBrand-mC9YR4 {
+    color: yellow;
+}
+.itemBrandSelected-3LxxzT {
+    color: #fff;
+    background-color: yellow;
+}
+
+
+.message-group .mentioned .message-text:after {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    bottom: 0;
+    width: 2px;
+    background: ;
+    border-left: 4px solid yellow;
+    border-radius: 2px 0 0 2px;
+}
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+    background-color: lightblue;
+}
+
+
+.private-channels .channel .avatar-small {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-right: 12px;
+}
+
+
+.embed .embed-author-icon {
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 8%;
+}
+.need-help-modal.deprecated .header {
+    background-color: darkred;
+    border-radius: 5px 5px 0 0;
+    height: 120px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.form.deprecated .control-group {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.need-help-modal.deprecated a {
+    color: darkred;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+
+
+
+.bot-tag{
+    background-color: #503a60;
+    padding: .2em .6em .3em;
+    border-radius: 0;
+    font-size: 75%;
+    font-weight: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.bot-tag:first-letter {
+    text-transform: uppercase;
+}
+.bot-tag.bot-tag-invert {
+    background: #503a60;
+    color: white!important;
+    text-transform: uppercase;
+}
+
+ .avatar-large[style*="191943137411858432"],
+ .avatar-profile[style*="191943137411858432"],
+.avatar-small[style*="191943137411858432"],
+div.avatar-popout[style*="191943137411858432"]{
+    background-image:url("https://github.com/mixer/branding-kit/blob/master/png/MixerMerge_Light.png?raw=true")!important;
+    background-size: 100% 100% !important;
+} 
+
+
+
+.embed-thumbnail.embed-thumbnail-link {
+    transition: 300ms cubic-bezier(.2, .11, 0, 1);
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff;
+    display: block;
+    width: 50px;
+    height: 50px;
+border-radius: 0%;
+}
+.embed-thumbnail.embed-thumbnail-link:hover {
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+
+border-radius: 0%;
+}
+
+
+.emoji-picker .premium-promo{
+    display: none;
+}
+
+.connecting .connecting-inner{
+    background-image: url(https://i.imgur.com/MfeQkLJ.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    -webkit-filter: invert(100%);
+}
+#user-profile-modal .empty .empty-icon-friends{
+    display: none;
+}
+#user-profile-modal .empty{
+    background-color: #000;
+}
+#user-profile-modal .empty .empty-text{
+    margin-top: -10px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5625;
+    text-transform: none;
+}
+
+
+
+
+.avatar-1BXaQj .xsmall-2rXiD4{
+border-radius: 8%;
+}
+.guilds-wrapper .guilds .guild .avatar-small{
+    border-radius: 8%;
+}
+.message-group .mentioned .message-text{
+    border-radius: 8%;
+}
+.channel-members .avatar-small{
+   border-radius: 8%;
+}
+.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
+ border-radius: 8%;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-verified-icon {
+    width: 17px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background: url(https://surl.im/i/xcjbg.png) no-repeat;
+}
+.avatar-profile {
+ border-radius: 0%;
+}
+
+
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.status-online {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.status-dnd {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    background-size: 32px 28px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+/** Verified User's ***/ 
+
+
+.user-popout .body,
+.protip .label,
+.tip,
+.user-popout .body .section .label,
+.user-popout .username-wrapper .discord-tag .discriminator,
+.user-popout .username-wrapper .discord-tag .username,
+.note textarea {
+       color: #c9d2f0;
+   }
+.user-popout .header.streaming {
+    background-color: #6441a5;
+    background-image: none;
+    padding: 0;
+}
+.user-popout .header.streaming .live-on-twitch {
+    cursor: pointer;
+    background-color: #6441a5;
+}
+.user-popout .header.streaming .live-on-twitch:hover {
+    cursor: pointer;
+    background-color: #6E41BD;
+}
+
+
+.new-messages-indicator.new-messages-indicator-mention {
+    background-color: transparent;
+}
+
+
+.guilds-wrapper .guilds .guild.selected:before {
+    -webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    height: 40px;
+    border-radius: 20px;
+    background: #6E41BD;
+    margin-top: -20px;
+}
+.avatar-profile[style*="173449041181409281"]:after, 
+.avatar-profile[style*="95605392498757632"]:after {
+    content: "Creator";
+    position: absolute;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+        position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+}
+.avatar-profile[style*="154679003326709761"]:after, 
+.avatar-profile[style*="89125338465964032"]:after, 
+.avatar-profile[style*="162691713582759936"]:after {
+    content: "🙈  Staff";
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    top: 60%;
+    position: absolute;
+    margin: 11px 0 0 175px;
+    width: 170px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0.5);
+    padding: .2em .6em .3em;
+    border-radius: 0;
+    font-size: 75%;
+    font-weight: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+    background: transparent;
+    opacity: .4;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color: white;
+}
+.avatar-profile[style*="280010068823506944"]:after, .avatar-profile[style*="267710787160768522"]:after,  .avatar-profile[style*="239107948088000512"]:after  {
+    content: "BaconSpaceCord Bot";
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 170px;
+            background-color: black;
+    padding: .2em .6em .3em;
+    border-radius: 0;
+    font-size: 75%;
+    font-weight: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+}
+
+.avatar-profile[style*="83010416610906112"]:after {
+    content: "Twitch Bot";
+    position: absolute;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    vertical-align: bottom
+
+}
+ .avatar-profile[style*="95531787442192384"]:after, .avatar-profile[style*="80216725336895488"]:after {
+    content: "Streamjar Dev";
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    top: 61%;
+    position: absolute;
+    margin: 12px 0 0 175px;
+    width: 90px;
+            background-color: #503a60;
+    padding: .2em ;
+    border-radius: 0;
+    font-size: 75%;
+    font-weight: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+}
+
+.typing {
+    font-size: 11px;
+    z-index: 3;
+    margin-left: 18px;
+}
+.channel-members .avatar-small .status {
+    border-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+.links {
+    background-color: #19191b !important;
+}
+
+
+
+.message-group .avatar-large[style*='173449041181409281']::after,
+.message-group .avatar-large[style*='95605392498757632']::after
+{
+    content: "Dev";
+    position: absolute;
+    height: 9px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 9px;
+    text-align: center;
+    font-weight: 9;
+    line-height: 9px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    vertical-align: bottom
+}
+.avatar-popout[style*='173449041181409281']::after,
+.avatar-popout[style*='95605392498757632']::after {
+    content: "Creator";
+    position: absolute;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    vertical-align: bottom
+}
+
+
+.avatar-popout[style*='191943137411858432']::after {
+    content: "Mixer";
+    position: absolute;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    vertical-align: bottom
+}
+
+.avatar-large{
+   border-radius: 0 !important; 
+}
+.avatar-1BXaQj{
+   border-radius: 0 !important; 
+}
+.avatar-profile{
+   border-radius: 0 !important; 
+}
+.avatar-small{
+   border-radius: 0 !important; 
+}
+.avatar-xlarge{
+   border-radius: 0 !important; 
+}
+.avatar-xsmall{
+   border-radius: 0 !important; 
+}
+.avatar-xxlarge{
+   border-radius: 0 !important; 
+}
+.avatar-popout{
+   border-radius: 0 !important; 
+}
+.avatar-hint{
+   border-radius: 0 !important; 
+}
+.message-group .avatar-large{
+   border-radius: 0 !important; 
+}
+.avatar-wrapper {
+    border-radius: 0 !important;
+
+}
+
+
+ .markup .emoji {
+    object-fit: contain !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+.markup .emoji.jumboable {
+    object-fit: contain !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+.markup .emote {
+    max-height: 48px !important;
+    max-width: 48px !important;
+    width: 105% !important;
+    height: 105% !important;
+}
+} 
+ .message-group-blocked {
+    display: none!important;
+} 
+
