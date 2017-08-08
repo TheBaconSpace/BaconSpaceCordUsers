@@ -1,5 +1,5 @@
 .message-group .avatar-large[style*='162691713582759936']::after,
-.message-group .avatar-large[style*='']::after, 
+.message-group .avatar-large[style*='89125338465964032']::after, 
 .message-group .avatar-large[style*=""]:after {
     content: "Staff";
     position: absolute;
@@ -17,7 +17,7 @@
     vertical-align: bottom
 }
 .avatar-popout[style*='162691713582759936']::after,
-.avatar-popout[style*='']::after, 
+.avatar-popout[style*='89125338465964032']::after, 
 .avatar-profile[style*=""]:after {
     content: "Staff";
     position: absolute;
