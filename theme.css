@@ -396,7 +396,9 @@ border-radius: 8%;
     margin-top: -20px;
 }
 .avatar-profile[style*="173449041181409281"]:after, 
-.avatar-profile[style*="95605392498757632"]:after {
+.avatar-profile[style*="95605392498757632"]:after,
+.avatar-xxlarge[style*="173449041181409281"]:after, 
+.avatar-xxlarge[style*="95605392498757632"]:after {
     content: "Creator";
     position: absolute;
     height: 14px;
